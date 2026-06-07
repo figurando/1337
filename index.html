@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AgroTech Solutions - Soluciones agronómicas integrales con tecnología de precisión para maximizar productividad y sustentabilidad." />
+  <meta name="keywords" content="agronomía, agricultura de precisión, análisis de suelo, drones agrícolas, asesoramiento agronómico, AgroTech" />
+  <meta name="author" content="AgroTech Solutions" />
+  <meta property="og:title" content="AgroTech Solutions – Innovación para el Futuro del Agro" />
+  <meta property="og:description" content="Soluciones agronómicas integrales para maximizar la productividad y la sustentabilidad de su empresa." />
+  <meta property="og:type" content="website" />
+  <title>AgroTech Solutions – Innovación para el Futuro del Agro</title>
+
+  <!-- Favicon SVG inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232E7D32'/><text y='24' x='4' font-size='22'>🌱</text></svg>" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+        <span class="brand-icon"><i class="bi bi-tree-fill"></i></span>
+        <span class="brand-text">AgroTech <strong>Solutions</strong></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#benefits">Beneficios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="btn btn-theme-toggle" id="themeToggle" title="Cambiar tema">
+              <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="container hero-content text-center text-white">
+      <div data-aos="fade-up" data-aos-duration="900">
+        <span class="hero-badge mb-3 d-inline-block">🌿 Tecnología Agropecuaria de Vanguardia</span>
+        <h1 class="hero-title">Innovación y Tecnología<br>para el <span class="hero-accent">Futuro del Agro</span></h1>
+        <p class="hero-subtitle mx-auto">Brindamos soluciones agronómicas integrales para maximizar la productividad<br class="d-none d-md-block"> y la sustentabilidad de su empresa.</p>
+        <div class="hero-buttons d-flex flex-wrap gap-3 justify-content-center mt-4">
+          <a href="#contact" class="btn btn-hero-primary">
+            <i class="bi bi-chat-dots-fill me-2"></i>Solicitar Asesoramiento
+          </a>
+          <a href="#services" class="btn btn-hero-secondary">
+            <i class="bi bi-grid-fill me-2"></i>Nuestros Servicios
+          </a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" data-aos="fade-up" data-aos-delay="600">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <small>Deslizá para explorar</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS RIBBON ===== -->
+  <section class="stats-ribbon">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="0">
+          <div class="stat-item">
+            <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+            <p>Clientes</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="stat-item">
+            <span class="stat-number" data-target="100000">0</span><span class="stat-plus">+</span>
+            <p>Hectáreas Asesoradas</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="stat-item">
+            <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+            <p>Años de Experiencia</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="stat-item">
+            <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+            <p>Satisfacción de Clientes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-img-wrap">
+            <div class="about-img-main">
+              <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=700&q=80" alt="Campo agrícola moderno" loading="lazy" />
+            </div>
+            <div class="about-img-badge">
+              <i class="bi bi-award-fill"></i>
+              <div>
+                <strong>15 años</strong>
+                <small>de experiencia</small>
+              </div>
+            </div>
+            <div class="about-img-accent"></div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
+          <span class="section-label">Sobre Nosotros</span>
+          <h2 class="section-title">Expertos en Agronomía <br>con Visión de Futuro</h2>
+          <p class="section-lead">Desde 2009, AgroTech Solutions lidera la transformación digital del sector agropecuario argentino. Fundada por un equipo de ingenieros agrónomos apasionados, hemos asesorado a cientos de productores en todo el país.</p>
+          <div class="about-tabs mt-4">
+            <div class="about-tab-btns d-flex gap-2 mb-3">
+              <button class="tab-btn active" data-tab="mision">Misión</button>
+              <button class="tab-btn" data-tab="vision">Visión</button>
+              <button class="tab-btn" data-tab="equipo">Equipo</button>
+            </div>
+            <div class="about-tab-content">
+              <div class="tab-pane active" id="tab-mision">
+                <p>Brindar soluciones agronómicas de excelencia que integren tecnología de punta con el conocimiento del territorio, ayudando a los productores a maximizar su rentabilidad de forma sustentable.</p>
+              </div>
+              <div class="tab-pane" id="tab-vision">
+                <p>Ser la empresa referente en agronomía tecnológica de Latinoamérica, impulsando un agro más eficiente, rentable y responsable con el medioambiente para las próximas generaciones.</p>
+              </div>
+              <div class="tab-pane" id="tab-equipo">
+                <p>Contamos con más de 40 ingenieros agrónomos especializados, técnicos de campo, analistas de datos y pilotos de drones certificados, distribuidos en 8 provincias argentinas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-team mt-4 d-flex align-items-center gap-3">
+            <div class="team-avatars">
+              <img src="https://i.pravatar.cc/40?img=11" alt="Agrónomo" />
+              <img src="https://i.pravatar.cc/40?img=22" alt="Agrónoma" />
+              <img src="https://i.pravatar.cc/40?img=33" alt="Técnico" />
+              <img src="https://i.pravatar.cc/40?img=44" alt="Ingeniera" />
+            </div>
+            <span class="team-count"><strong>+40</strong> profesionales especializados</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section-pad services-section">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-label">Lo Que Hacemos</span>
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-desc mx-auto">Ofrecemos un abanico completo de servicios agronómicos respaldados por tecnología de última generación.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-person-check-fill"></i></div>
+            <h4>Asesoramiento Agronómico</h4>
+            <p>Diagnóstico personalizado y planes de manejo adaptados a cada establecimiento, maximizando rendimientos con criterios técnicos rigurosos.</p>
+            <a href="#contact" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-eyedropper"></i></div>
+            <h4>Análisis de Suelo</h4>
+            <p>Muestreo y análisis físico-químico completo con laboratorio propio. Recomendaciones de fertilización basadas en datos precisos del lote.</p>
+            <a href="#contact" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="service-card service-card--featured">
+            <div class="service-icon"><i class="bi bi-geo-alt-fill"></i></div>
+            <h4>Agricultura de Precisión</h4>
+            <p>Aplicación variable de insumos, mapas de rendimiento y zonificación de ambientes. Tecnología GNSS y sensores de última generación.</p>
+            <a href="#contact" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-send-fill"></i></div>
+            <h4>Monitoreo con Drones</h4>
+            <p>Relevamiento aéreo con drones multiespectrales para detección temprana de estrés hídrico, plagas y enfermedades en tiempo real.</p>
+            <a href="#contact" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-calendar-check-fill"></i></div>
+            <h4>Gestión de Cultivos</h4>
+            <p>Acompañamiento integral durante todo el ciclo del cultivo: siembra, monitoreo, aplicaciones y cosecha con registros digitales completos.</p>
+            <a href="#contact" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-droplet-fill"></i></div>
+            <h4>Fertilización Inteligente</h4>
+            <p>Planes de nutrición de precisión con aplicación variable por ambientes. Maximizamos la eficiencia de uso de nutrientes y reducimos costos.</p>
+            <a href="#contact" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFITS ===== -->
+  <section id="benefits" class="section-pad benefits-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-aos="fade-right">
+          <span class="section-label">¿Por qué elegirnos?</span>
+          <h2 class="section-title">Beneficios que Marcan la Diferencia</h2>
+          <p class="section-lead">Trabajamos con un enfoque integral que combina ciencia, datos y experiencia de campo para transformar sus resultados productivos.</p>
+          <div class="benefit-list mt-4">
+            <div class="benefit-item" data-aos="fade-right" data-aos-delay="50">
+              <div class="benefit-icon"><i class="bi bi-graph-up-arrow"></i></div>
+              <div>
+                <h6>Mayor rendimiento productivo</h6>
+                <p>Aumentamos el potencial de cada lote con manejo técnico de precisión.</p>
+              </div>
+            </div>
+            <div class="benefit-item" data-aos="fade-right" data-aos-delay="100">
+              <div class="benefit-icon"><i class="bi bi-gear-fill"></i></div>
+              <div>
+                <h6>Optimización de recursos</h6>
+                <p>Aplicamos insumos donde y cuando realmente se necesitan.</p>
+              </div>
+            </div>
+            <div class="benefit-item" data-aos="fade-right" data-aos-delay="150">
+              <div class="benefit-icon"><i class="bi bi-cash-coin"></i></div>
+              <div>
+                <h6>Reducción de costos</h6>
+                <p>Menor desperdicio de insumos sin resignar productividad.</p>
+              </div>
+            </div>
+            <div class="benefit-item" data-aos="fade-right" data-aos-delay="200">
+              <div class="benefit-icon"><i class="bi bi-tree-fill"></i></div>
+              <div>
+                <h6>Sustentabilidad ambiental</h6>
+                <p>Cuidamos el suelo, el agua y el ecosistema para las generaciones futuras.</p>
+              </div>
+            </div>
+            <div class="benefit-item" data-aos="fade-right" data-aos-delay="250">
+              <div class="benefit-icon"><i class="bi bi-cpu-fill"></i></div>
+              <div>
+                <h6>Tecnología de última generación</h6>
+                <p>Drones, sensores, IA y big data al servicio del campo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+          <div class="benefits-visual">
+            <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=750&q=80" alt="Tecnología agrícola" class="benefits-img" loading="lazy" />
+            <div class="benefits-float-card benefits-float-card--1">
+              <i class="bi bi-patch-check-fill text-success"></i>
+              <span>Certificación ISO 9001</span>
+            </div>
+            <div class="benefits-float-card benefits-float-card--2">
+              <i class="bi bi-shield-fill-check text-success"></i>
+              <span>Garantía de Resultados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-label">Nuestro Trabajo</span>
+        <h2 class="section-title">Galería</h2>
+        <p class="section-desc mx-auto">Imágenes del campo, la tecnología y el equipo que hacen posible nuestros resultados.</p>
+      </div>
+      <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
+        <div class="gallery-item gallery-item--wide">
+          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80" alt="Cultivos extensivos" loading="lazy" />
+          <div class="gallery-overlay"><span>Cultivos</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500&q=80" alt="Drone agrícola" loading="lazy" />
+          <div class="gallery-overlay"><span>Drones</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1592982537447-6f2a6a0a7b5a?w=500&q=80" alt="Maquinaria agrícola" loading="lazy" />
+          <div class="gallery-overlay"><span>Maquinaria</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80" alt="Laboratorio análisis" loading="lazy" />
+          <div class="gallery-overlay"><span>Laboratorio</span></div>
+        </div>
+        <div class="gallery-item gallery-item--tall">
+          <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=500&q=80" alt="Monitoreo satelital" loading="lazy" />
+          <div class="gallery-overlay"><span>Monitoreo Satelital</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&q=80" alt="Análisis de suelo" loading="lazy" />
+          <div class="gallery-overlay"><span>Análisis de Suelo</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="section-pad testimonials-section">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-label">Lo que dicen</span>
+        <h2 class="section-title">Testimonios de Productores</h2>
+      </div>
+      <div class="testimonials-carousel" data-aos="fade-up" data-aos-delay="100">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Desde que trabajamos con AgroTech Solutions, nuestro rendimiento de soja aumentó un 18%. El seguimiento es impecable y los ingenieros siempre están disponibles."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/48?img=55" alt="Carlos Mendoza" />
+              <div>
+                <strong>Carlos Mendoza</strong>
+                <small>Productor, Córdoba</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"El servicio de drones y análisis de suelo transformó nuestra forma de tomar decisiones. Ahora tenemos datos reales para cada lote. Excelente inversión."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/48?img=45" alt="María Laura Giordano" />
+              <div>
+                <strong>María Laura Giordano</strong>
+                <small>Ingeniera Agrónoma, Buenos Aires</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Redujimos un 22% el costo en fertilizantes gracias a la fertilización variable que nos implementaron. El ROI fue impresionante en la primera campaña."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/48?img=68" alt="Roberto Fleitas" />
+              <div>
+                <strong>Roberto Fleitas</strong>
+                <small>Productor, Entre Ríos</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"El equipo de AgroTech acompañó todo el proceso de siembra a cosecha. La plataforma digital y los informes son claros, modernos y muy útiles para la gestión."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/48?img=32" alt="Luciana Parodi" />
+              <div>
+                <strong>Luciana Parodi</strong>
+                <small>Empresaria Agropecuaria, Santa Fe</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Increíble la tecnología que manejan. Los mapas de rendimiento y la variabilidad de suelos los tiene en la mano cualquier técnico. Totalmente recomendados."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/48?img=14" alt="Hernán Villarroel" />
+              <div>
+                <strong>Hernán Villarroel</strong>
+                <small>Productor, La Pampa</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="testimonial-nav d-flex justify-content-center gap-2 mt-4">
+          <button class="testi-btn" id="testiPrev"><i class="bi bi-chevron-left"></i></button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-btn" id="testiNext"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG ===== -->
+  <section id="blog" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-label">Noticias & Blog</span>
+        <h2 class="section-title">Últimas Publicaciones</h2>
+        <p class="section-desc mx-auto">Mantenete actualizado con las últimas tendencias, tecnologías y novedades del sector agropecuario.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=600&q=80" alt="Agricultura de precisión" loading="lazy" />
+              <span class="blog-cat">Tecnología</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta"><i class="bi bi-calendar3"></i> 15 Mayo 2025 · <i class="bi bi-clock ms-1"></i> 5 min</div>
+              <h5>Tendencias en Agricultura de Precisión para 2025</h5>
+              <p>Las nuevas herramientas de análisis satelital e inteligencia artificial están redefiniendo cómo gestionamos los cultivos modernos...</p>
+              <a href="#" class="blog-link">Leer más <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&q=80" alt="Análisis de suelo" loading="lazy" />
+              <span class="blog-cat">Suelos</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta"><i class="bi bi-calendar3"></i> 3 Mayo 2025 · <i class="bi bi-clock ms-1"></i> 4 min</div>
+              <h5>La Importancia del Análisis de Suelo en Cada Campaña</h5>
+              <p>Un diagnóstico de suelo completo antes de cada siembra puede marcar la diferencia entre una campaña rentable y una deficitaria...</p>
+              <a href="#" class="blog-link">Leer más <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&q=80" alt="Drones agrícolas" loading="lazy" />
+              <span class="blog-cat">Innovación</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta"><i class="bi bi-calendar3"></i> 20 Abril 2025 · <i class="bi bi-clock ms-1"></i> 6 min</div>
+              <h5>Nuevas Tecnologías para Aumentar el Rendimiento Agrícola</h5>
+              <p>Los drones multiespectrales, sensores IoT y la analítica avanzada están revolucionando la manera en que los productores toman decisiones...</p>
+              <a href="#" class="blog-link">Leer más <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section-pad contact-section">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-label">Hablemos</span>
+        <h2 class="section-title">Contactate con Nosotros</h2>
+        <p class="section-desc mx-auto">Completá el formulario y un asesor se comunicará con vos en menos de 24 horas.</p>
+      </div>
+      <div class="row g-5 align-items-start">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="contact-info-wrap">
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <h6>Dirección</h6>
+                <p>Av. del Libertador 5432, Piso 8<br>Buenos Aires, Argentina</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <h6>Teléfono</h6>
+                <p>+54 11 4555-0000<br>+54 11 4555-0001</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <h6>Email</h6>
+                <p>info@agrotechsolutions.com.ar<br>ventas@agrotechsolutions.com.ar</p>
+              </div>
+            </div>
+            <div class="contact-map mt-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878895484!2d-58.43857!3d-34.60184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac930f8f947%3A0xea07b3c7aef2b0eb!2sAv.%20del%20Libertador%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1699900000000"
+                width="100%" height="220" style="border:0;border-radius:12px;" allowfullscreen loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="150">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label class="form-label">Nombre <span class="required">*</span></label>
+                <input type="text" class="form-control" placeholder="Juan Pérez" required />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Empresa</label>
+                <input type="text" class="form-control" placeholder="Establecimiento El Pampero" />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Email <span class="required">*</span></label>
+                <input type="email" class="form-control" placeholder="juan@ejemplo.com" required />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" placeholder="+54 11 0000-0000" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Mensaje <span class="required">*</span></label>
+                <textarea class="form-control" rows="5" placeholder="Contanos en qué podemos ayudarte..." required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-contact-submit w-100">
+                  <i class="bi bi-send-fill me-2"></i>Enviar Mensaje
+                </button>
+              </div>
+            </div>
+            <div class="form-success mt-3 d-none" id="formSuccess">
+              <i class="bi bi-check-circle-fill"></i> ¡Mensaje enviado! Nos comunicaremos pronto.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="main-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="footer-brand d-flex align-items-center gap-2 mb-3">
+              <span class="brand-icon"><i class="bi bi-tree-fill"></i></span>
+              <span class="brand-text">AgroTech <strong>Solutions</strong></span>
+            </div>
+            <p class="footer-desc">Innovación agronómica al servicio del productor. Tecnología, ciencia y experiencia para transformar el campo argentino.</p>
+            <div class="footer-social d-flex gap-2 mt-3">
+              <a href="#" class="social-btn" title="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-btn" title="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="social-btn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="social-btn" title="YouTube"><i class="bi bi-youtube"></i></a>
+              <a href="#" class="social-btn" title="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-2">
+            <h6 class="footer-heading">Empresa</h6>
+            <ul class="footer-links">
+              <li><a href="#about">Nosotros</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#gallery">Galería</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-2">
+            <h6 class="footer-heading">Servicios</h6>
+            <ul class="footer-links">
+              <li><a href="#services">Asesoramiento</a></li>
+              <li><a href="#services">Análisis de Suelo</a></li>
+              <li><a href="#services">Ag. de Precisión</a></li>
+              <li><a href="#services">Drones</a></li>
+              <li><a href="#services">Fertilización</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="footer-heading">Newsletter</h6>
+            <p class="footer-desc">Recibí novedades del agro y tecnología directamente en tu correo.</p>
+            <div class="footer-newsletter d-flex gap-2 mt-2">
+              <input type="email" class="form-control" placeholder="Tu email..." />
+              <button class="btn btn-newsletter">
+                <i class="bi bi-send-fill"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
+        <p class="mb-0">© 2025 AgroTech Solutions. Todos los derechos reservados.</p>
+        <div class="d-flex gap-3">
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Mapa del Sitio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOAT ===== -->
+  <a href="https://wa.me/541145550000?text=Hola%20AgroTech%20Solutions%2C%20me%20gustar%C3%ADa%20solicitar%20asesoramiento."
+     class="whatsapp-float" target="_blank" rel="noopener" title="Contactar por WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    <span class="wa-pulse"></span>
+  </a>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop" title="Volver arriba">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
